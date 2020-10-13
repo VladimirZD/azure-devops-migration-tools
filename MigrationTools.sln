@@ -100,6 +100,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleConfigs", "SampleConf
 		src\MigrationTools.Samples\demo-migration.json = src\MigrationTools.Samples\demo-migration.json
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".workflows", ".workflows", "{80EC193A-24EE-44DC-B6FD-93C61684131C}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
